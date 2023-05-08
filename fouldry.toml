@@ -29,6 +29,6 @@ max_test_rejects = 4_294_967_295   # 2^32 - 1
 runs = 2048
 
 [rpc_endpoints]
-zk_era_test = "${ZKSYNC_NODE_URL}"
+zkEra = "${ZKSYNC_NODE_URL}"
 
 [etherscan]

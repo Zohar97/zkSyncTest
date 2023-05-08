@@ -2,6 +2,7 @@ import "@matterlabs/hardhat-zksync-deploy";
 import "@matterlabs/hardhat-zksync-solc";
 import "@matterlabs/hardhat-zksync-verify";
 
+import "./deploy/deployClassic.ts";
 
 module.exports = {
   zksolc: {
